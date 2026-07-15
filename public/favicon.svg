@@ -1,0 +1,11 @@
+<svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" fill="none">
+  <rect width="64" height="64" rx="12" fill="#0f172a"/>
+  <text x="7" y="46" font-family="Inter, sans-serif" font-weight="800" font-size="42" letter-spacing="-2" fill="white">C</text>
+  <path d="M 7,52 C 20,49 34,47 46,47 L 55,43 L 49,53 C 34,56 20,58 7,59 Z" fill="url(#fav-grad)" />
+  <defs>
+    <linearGradient id="fav-grad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#60a5fa"/>
+      <stop offset="100%" stop-color="#2563eb"/>
+    </linearGradient>
+  </defs>
+</svg>
