@@ -23,6 +23,10 @@ const QuoteForm = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault()
+    if (!supabase) {
+      setStatus('error')
+      return
+    }
     setStatus('loading')
     const { error } = await supabase.from('brokerage_quote_requests').insert([{ ...form }])
     if (error) {
