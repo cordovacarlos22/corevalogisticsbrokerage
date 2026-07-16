@@ -46,11 +46,11 @@ const Footer = () => {
                 </svg>
                 (840) 210-1449
               </a>
-              <a href="mailto:brokerage@corevalogistics.com" className="flex items-center gap-2 text-sm text-slate-400 hover:text-blue-400 transition-colors">
+              <a href="mailto:brokerage@corevalogisticsbrokerage.com" className="flex items-center gap-2 text-sm text-slate-400 hover:text-blue-400 transition-colors">
                 <svg className="w-4 h-4 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                 </svg>
-                brokerage@corevalogistics.com
+                brokerage@corevalogisticsbrokerage.com
               </a>
               <p className="flex items-center gap-2 text-sm text-slate-400">
                 <svg className="w-4 h-4 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -114,7 +114,9 @@ const Footer = () => {
           <p className="text-slate-500 text-sm">
             &copy; {new Date().getFullYear()} Coreva Logistics Brokerage. All rights reserved.
           </p>
-          <div className="flex items-center gap-6">
+          <div className="flex flex-wrap items-center justify-center gap-6">
+            <span className="text-xs font-bold text-slate-600 uppercase tracking-widest">MC# 1824315</span>
+            <span className="text-xs font-bold text-slate-600 uppercase tracking-widest">USDOT# 4582493</span>
             <a href="#" className="text-slate-500 hover:text-slate-300 text-xs transition-colors">Privacy Policy</a>
             <a href="#" className="text-slate-500 hover:text-slate-300 text-xs transition-colors">Terms of Service</a>
             <a href="#" className="text-slate-500 hover:text-slate-300 text-xs transition-colors">Shipper Agreement</a>
